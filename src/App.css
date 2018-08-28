@@ -43,21 +43,6 @@ html, body {
   color: #02b3e4;
 }
 
-/* TODO
-#locationList .hamburger-menu {
-  position :absolute;
-  top : 10px;
-  left: 20px; 
-}
-
-#locationList .hamburger-menu div {
-  width: 35px;
-  height: 5px;
-  margin: 5px 0;
-  background-color: white;
-}
-*/
-
 #locationList .menu-list {
   font-family: "PT Sans", sans-serif;  
   position: absolute;
@@ -90,8 +75,7 @@ input:focus::-webkit-input-placeholder {
   margin: 0;
   font-size: 15px;
   font-style: italic;
-  color: black;
-  opacity: 0.3;
+  color: lightgrey;
 } 
 
 #locationList ul.menu-list li {
@@ -121,13 +105,15 @@ li a {
   color: #02b3e4;
   padding: 10px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
 }
 
+/* inop because not working yet
 li a.active {
-  background-color: #4CAF50;
+  background-color: red;
   color: #eee;
 }
+*/
 
 li a:hover:not(.active) {
   background-color: #02b3e4;
@@ -136,13 +122,15 @@ li a:hover:not(.active) {
   box-shadow: 10px;
 }
 
-#locationList .closebtn {
+.toggleButton {
+  top: 1%;
+  margin: 5px;
+  left: 4%;
   position: absolute;
-  top: 0;
-  right: 0.5px;
-  font-size: 36px;
-  margin-left: 50px;
-}
+  color: #02b3e4;
+  background-color: white;
+  font-size: 15px;
+  }
 
 #footer {
   font-family: "PT Sans", sans-serif;  
@@ -168,7 +156,7 @@ li a:hover:not(.active) {
   text-decoration: none;
   }
 
-/* responsiveness incomplete
+/* responsiveness: incomplete
 
 @media only screen and (max-device-width : 959px), only screen and (max-width : 959px)  {
 

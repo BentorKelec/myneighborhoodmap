@@ -5,7 +5,7 @@ FEND Project 8 Neighborhood Map
 READ FIRST PLEASE!!!
 
 This is my incomplete take at the FEND Project 8.
-some more info will follow here as to why
+
 
 ////////
 
