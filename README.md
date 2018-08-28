@@ -30,6 +30,4 @@ Google Maps API
 Foursquare API
 - for now until completion, both of these are using my credentials. Please act responsible using this app.
 
-I wanted to use as little modules as possible because there are to many of them, some work good, some work worse, some work not at all the way I want (or require too much learning). After some search I came across the following youtube playlist by Yahya Elharony which actually showed me some good approach to get my idea done:
-https://www.youtube.com/playlist?list=PLgOB68PvvmWCGNn8UMTpcfQEiITzxEEA1
-
+I wanted to use as little modules as possible because there are to many of them, some work good, some work worse, some work not at all the way I want (or require too much learning). After some search I came across a youtube playlist by [Yahya Elharony](https://www.youtube.com/playlist?list=PLgOB68PvvmWCGNn8UMTpcfQEiITzxEEA1) which actually showed me some good approach to get my idea done.
