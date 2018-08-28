@@ -1,17 +1,11 @@
 .App {
     text-align: center;
+    display: block;
 }
 
 .pageName {
   color: #02b3e4;
-  font-style: italic;;
-}
-
-.App-header {
-  background-color: #333;
-  height: 150px;
-  padding: 20px;
-  color: #fff
+  font-style: italic;
 }
 
 #map {
@@ -24,12 +18,14 @@ html, body {
     height: 100%;
     width: 99.49%;
     margin: 0;
-    padding: 0
+    padding: 0;
+    display: flex;
 }
 
 #navigation {
   width:100%;
   height: auto;
+  display: inline-flex;
 }
 
 #navigation nav.heading {
@@ -38,6 +34,7 @@ html, body {
   padding : 4px;
   text-align: center;
   width: 100%;
+  display: block;
 }
 
 #navigation nav.heading #header {
@@ -46,6 +43,7 @@ html, body {
   color: #02b3e4;
 }
 
+/* TODO
 #locationList .hamburger-menu {
   position :absolute;
   top : 10px;
@@ -58,6 +56,7 @@ html, body {
   margin: 5px 0;
   background-color: white;
 }
+*/
 
 #locationList .menu-list {
   font-family: "PT Sans", sans-serif;  
@@ -69,7 +68,8 @@ html, body {
   height: 93vh;
   overflow: scroll;
   list-style: none;
-  padding-left: 0; 
+  padding-left: 0;
+  display: inline; 
 }
 
 #locationList .menu-list input {
@@ -168,14 +168,17 @@ li a:hover:not(.active) {
   text-decoration: none;
   }
 
-/*
-@media screen and (max-width: 750px) {      
-    header nav#menu ul:hover > li{
-        display:block !important;
-    }
+/* responsiveness incomplete
 
-    header nav#menu ul li{
-        display:none !important;
-    }
+@media only screen and (max-device-width : 959px), only screen and (max-width : 959px)  {
+
+  .app {
+    flex-direction: column;
+  }
+
+  #locationList .menu-list {
+    max-width: 15vw;
+  }
+
 }
 */
