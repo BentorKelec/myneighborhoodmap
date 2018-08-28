@@ -12,11 +12,7 @@ TO DO:
   . klick on entry highlights marker
 - filter list
   . filter lists as per available category (hotel, park, restaurant etc)
-- aria
-  . lables
-  . tab order
-- responsiveness
-- fix google error handler
+- fix google error handler always shown
 - optional: cooler links in footer (design)
 */
 
