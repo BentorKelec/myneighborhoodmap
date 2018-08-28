@@ -20,9 +20,9 @@ INSTRUCTIONS
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 To get the program running:
 
-1 open the folder in your favorite terminal and run "npm install" to get all relevant modules.
-2 Thereafter, run "npm start" to open the dev version of the project or run "npm build" to initialize the production version.
-3 The app should open in your browser. alternatively you can navigate to "localhost:3000" on your browser to open the map.
+1) open the folder in your favorite terminal and run "npm install" to get all relevant modules.
+2) Thereafter, run "npm start" to open the dev version of the project or run "npm build" to initialize the production version.
+3) The app should open in your browser. alternatively you can navigate to "localhost:3000" on your browser to open the map.
 
 USED APIs AND SOURCES
 
